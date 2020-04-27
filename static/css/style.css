@@ -124,11 +124,13 @@ nav .button-collapse {
   margin: 0px 10px;
 }
 /*Headings*/
+
 .heading {
   width: 100%;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
+  color: #107429ed;
 }
 .podcast-title {
   font-weight: 600;
@@ -145,7 +147,6 @@ a {
 .footer-bar{
     background-color: #107429ed;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .btns {
