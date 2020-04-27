@@ -15,6 +15,11 @@ html, body {
     color: #107429ed;
 }
 
+.uppercase {
+ text-transform: uppercase;
+}
+
+
 .brand-logo {
   font-weight: 600;
   margin-left: 20px;
