@@ -144,10 +144,11 @@ a {
 
 .footer-bar{
     background-color: #107429ed;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.btn {
+.btns {
     background-color: #107429ed;
 }
 
@@ -231,8 +232,8 @@ a {
   }
 
 .detail-image {
-    width: 350px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 50px 50px 50px 5px;
     border-radius: 4px;
         }
