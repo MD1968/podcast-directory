@@ -92,10 +92,6 @@ nav .button-collapse {
   justify-content: center;
   text-align: center;
 }
-
-.podcast-card {
-  justify-content: center;
-}
 .cta {
   height: 200px;
   margin: 0px 30px;
@@ -168,12 +164,11 @@ a {
 .podcast-stat {
   display: flex;
 }
-.ingredient {
-  text-transform: capitalize;
-}
+
 /*Form*/
-.login-form, .category-form {
+.add-podcast-form {
   width: 60%;
+  margin-top:20px;
 }
 .action-button {
   margin-top: 30px;
