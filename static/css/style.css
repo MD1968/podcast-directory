@@ -111,9 +111,10 @@ nav .button-collapse {
 }
 
 .detail-button {
-  margin-left: 60px;
-  margin-bottom: 30px;
+  width: 100;
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .padding {
