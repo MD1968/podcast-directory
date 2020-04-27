@@ -20,6 +20,7 @@ html, body {
   margin-left: 20px;
   display: flex;
 }
+
 nav .brand-logo i {
   float: right;
   margin-left: 10px;
@@ -146,7 +147,7 @@ a {
     padding-top: 10px;
 }
 
-.buttons {
+.btn {
     background-color: #107429ed;
 }
 
