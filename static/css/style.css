@@ -46,6 +46,7 @@ nav .button-collapse {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .flex-container {
   display: flex;
