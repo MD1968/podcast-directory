@@ -1,0 +1,47 @@
+{% extends 'base.html'%} {% block content %}
+
+<!-- Contact Form -->
+
+<!-- Form Start -->
+<br>
+<br>
+<div class="valign-wrapper row login-box">
+    <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
+        <form action="https://formspree.io/mlenevdl" method="POST">
+            <div class="card-content">
+                <span class="card-title">Please get in touch.</span>
+                <div class="row">
+
+                    <div class="input-field col s12">
+                        <label for="name">Name</label>
+                        <input type="text" class="validate" name="name" id="name" />
+                    </div>
+
+                    <div class="input-field col s12">
+                        <label for="telephone">Telephone Number </label>
+                        <input type="tel" class="validate" name="telephone" id="telephone" />
+                    </div>
+
+                    <div class="input-field col s12">
+                        <label for="email">Email</label>
+                        <input type="email" class="validate" name="email" id="email" />
+                    </div>
+
+                    <div class="input-field col s12">
+                        <label for="message">Message</label>
+                        <input type="text" class="validate" name="message" id="message" />
+                    </div>
+                    <!-- Send button -->
+
+                </div>
+            </div>
+            <div class="card-action right-align">
+                <input type="reset" id="reset" class="btn-flat grey-text waves-effect">
+                <input type="hidden" name="_next" value="{{url_for('get_sent')}}">
+                <button class="waves-effect waves-light btn"><i class="material-icons right">send</i>Send</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

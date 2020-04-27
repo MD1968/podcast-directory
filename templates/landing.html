@@ -1,0 +1,20 @@
+{% extends 'base.html'%} {% block content %}
+
+<p class="heading">Browse or Login to add your own!</p>
+
+
+<div class="flex-container">
+
+    <!-- Start of loop -->
+    {% for podcast in podcasts %}
+    <!-- Start of content -->
+
+    <div class="podcast-card col s12 m6 l3">
+        <h5 class="podcast-title">{{podcast.podcast_name}}</h5>
+        <img src="{{podcast.podcast_image}}" alt="podcast image" class="podcast-image" />
+        <a href="{{url_for( 'get_details', podcast_id=podcast._id)}}" class="buttons waves-effect waves-light btn">View Details</a>
+    </div>
+
+    {% endfor %}
+</div>
+{% endblock %}

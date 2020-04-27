@@ -1,0 +1,31 @@
+{% extends 'base.html'%} {% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col s12 m12 s6">
+            <div class="center">
+                <br>
+                <br>
+                <a href=" {{url_for( 'get_add')}} " class="waves-effect waves-light btn btn_large">Add Podcast</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="flex-container">
+
+    <!-- Start of loop -->
+    {% for podcast in podcasts %}
+    <!-- Start of content -->
+
+    <div class="podcast-card col s12 m6 l3">
+        <h5 class="podcast-title">{{podcast.podcast_name}}</h5>
+        <img src="{{podcast.podcast_image}}" alt="podcast image" class="podcast-image" />
+        <a href=" {{url_for( 'get_edit', podcast_id=podcast._id)}} " class=" buttons waves-effect waves-light btn btn_small blue ">Edit</a>
+        <a href="{{url_for( 'get_delete', podcast_id=podcast._id)}}" class=" buttons waves-effect waves-light btn btn_small red ">Del</a>
+    </div>
+
+    {% endfor %}
+</div>
+{% endblock %}
+
