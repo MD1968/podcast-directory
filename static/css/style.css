@@ -9,6 +9,7 @@ html, body {
 }
 .nav {
   background-color: #107429ed;
+  margin-bottom: 40px;
 }
 
 .card-title {
