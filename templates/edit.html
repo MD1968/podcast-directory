@@ -1,23 +1,19 @@
-{% extends 'base.html'%} {% block content %}
-
-<!-- Edit podcast -->
-
 <!-- Start of form -->
 <div class="valign-wrapper row podcast-edit-box">
-        <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
-         <div class="heading uppercase">
-    <h4>Existing Data</h4>
-         </div>
-         <div class="edit-text">
-        <p>xisting Title: {{podcast.podcast_name}}</p>
-       <br><br> 
-        <p>Existing Description:{{podcast.podcast_description}}</p>
-        <br><br> 
-        <p>Existing Image: {{podcast.podcast_image}}</p>
-       <br><br> 
-        <p>Link to podcasters Website: {{podcast.podcast_website}}</p>
-</div>
-</div>
+    <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
+        <div class="heading uppercase">
+            <h4>Existing Data</h4>
+        </div>
+        <div class="edit-text">
+            <p>Existing Title: {{podcast.podcast_name}}</p>
+            <br>
+            <p>Existing Description:{{podcast.podcast_description}}</p>
+            <br>
+            <p>Existing Image: {{podcast.podcast_image}}</p>
+            <br>
+            <p>Link to podcasters Website: {{podcast.podcast_website}}</p>
+        </div>
+    </div>
 </div>
 <!-- Form Start -->
 
