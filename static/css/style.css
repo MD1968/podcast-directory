@@ -37,6 +37,11 @@ html, body {
 .heading {
      color: #107429ed;
 }
+
+.edit-text {
+     color: #107429ed;
+}
+
 /*Containers*/
  .podcast {
      display: flex;

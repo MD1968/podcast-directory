@@ -5,7 +5,7 @@
 <!-- Start of form -->
 <div class="valign-wrapper row podcast-edit-box">
         <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
-         <div class="card-content">
+         <div class="edit-text">
     <h1> {{podcast.podcast_name}}</h1>
 
     <img src="{{podcast.podcast_image}}" alt="Podcast Image" class="podcast-image" />
@@ -21,7 +21,7 @@
     </ul>
 </div>
 </div>
-
+</div>
 <!-- Form Start -->
 
 <form action="{{ url_for('get_update', podcast_id=podcast._id) }}" method="POST" class="col s12">
