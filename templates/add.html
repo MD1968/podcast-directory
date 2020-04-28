@@ -1,8 +1,8 @@
+<!--                Add Podcast              -->
+
 {% extends 'base.html'%} {% block content %}
 
-<!-- Add Podcast -->
-
-<!-- Form Start -->
+<!--                Form Start              -->
 
 <form action="{{ url_for('insert_podcast') }}" method="POST" class="col s12">
 
@@ -33,6 +33,9 @@
                     </div>
                 </div>
             </div>
+
+<!--                Buttons              -->
+
             <div class="card-action right-align">
                 <input type="reset" id="reset" class="btn-flat grey-text waves-effect">
                 <button class="btn waves-effect waves-light btns" type="submit" name="action">Add Podcast
@@ -40,6 +43,8 @@
             </div>
         </div>
     </div>
+
+<!--                End of form              -->
 
 </form>
 {% endblock %}
