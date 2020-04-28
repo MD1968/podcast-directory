@@ -64,17 +64,14 @@ nav .button-collapse {
   width: 70%;
 }
 
-.podcast_detail_container {
+.podcast-detail-container {
   background-color: #ffffff;
   margin: 40px;
   padding: 20px;
   border-radius: 4px;
   color: #000;
-  align-items: center;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  width: 70%;
 }
 
 .podcast_container {
