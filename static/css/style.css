@@ -95,9 +95,19 @@ html, body {
      justify-content: center;
      text-align: center;
 }
- .podcast-card {
+
+ .podcast-edit {
+     background: #fff;
+     color: #000000;
+     border-radius: 4px;
+     height: 500px;
+     width: 400px;
+     padding: 30px;
+     margin: 20px;
      justify-content: center;
+     text-align: center;
 }
+
  .heading-container, .podcast-contents {
      flex-direction: row;
      display: flex;
