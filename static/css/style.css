@@ -36,6 +36,11 @@ nav .button-collapse {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.input-field {
+  color: #107429ed;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
