@@ -62,7 +62,7 @@ html, body {
      margin: 40px;
      padding: 20px;
      border-radius: 4px;
-     color: #000;
+     color: #107429ed;
      align-items: center;
      text-align: center;
      display: flex;
@@ -80,7 +80,7 @@ html, body {
      margin: 40px;
      padding: 20px;
      border-radius: 4px;
-     color: #000;
+     color: #107429ed;
      display: flex;
      flex-direction: column;
 }
