@@ -97,15 +97,14 @@ html, body {
 }
 
  .podcast-edit {
-     background: #fff;
-     color: #000000;
+     background-color: #ffffff;
+     margin: 40px;
+     width: 70%;
+     padding: 20px;
      border-radius: 4px;
-     height: 500px;
-     width: 400px;
-     padding: 30px;
-     margin: 20px;
-     justify-content: center;
-     text-align: center;
+     color: #000;
+     display: flex;
+     flex-direction: column;
 }
 
  .heading-container, .podcast-contents {
