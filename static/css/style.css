@@ -213,10 +213,10 @@ html, body {
      margin: 10px 30px 30px 30px;
 }
  .detail-image {
-     width: 250px;
-     height: 200px;
+     width: 300px;
+     height: 300px;
      border-radius: 4px;
-     margin: 30px 30px 30px 3px;
+     margin: 30px 30px 30px 30px;
 }
  .image {
      width: 350px;
@@ -240,7 +240,7 @@ html, body {
          text-align: center;
     }
      .detail-image {
-         width: 250px;
+         width: 240px;
          height: 300px;
          margin: 50px 50px 50px 5px;
          border-radius: 4px;
