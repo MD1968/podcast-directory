@@ -93,9 +93,18 @@ They can be located in the wireframes folder.
 
 I have tested this project on the most common browsers: Chrome, Edge, Firefox. Testing was completed using a locally hosted webserver to confirm all links and formatting were working correctly. Also, I have tested the content using a Google Pixel 4x, Nokia, Apple iPhone and IPad, and the developer kit built into Chrome.
 
-During my testing, I have manually checked all the links and buttons for functionality and have also asked my friends and family to check out the site. They have checked for content, spelling and grammar issues and links and button functionality. Their comments and feedback are very appreciated.
+During my testing, I have manually checked all the links and buttons for functionality.
+
+I have used the inspect option with income to check the layout for all of the screen size options.
+
+Also, on my Pixel 4xl and Galaxy S10 and Samsung Galaxy tablets. 
+
+I have also used the kind help of my family and friends to test the application.
+
+They have checked for content, spelling and grammar issues and links and button functionality. Their comments and feedback are very appreciated.
 
 I have also used Microsoft word to double-check the spelling and grammar used within the project.
+
 The excellent application Grammarly has also been used throughout this project.
 
 I have used <a href="https://validator.w3.org/">HTML Validator</a> to validate the HTML code and corrected all the major error or warning messages.
