@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Main template -->
+<!------------ Template Heading and Navbar ------------>
 
 <!-- Meta -->
 
@@ -10,24 +10,30 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Mark Dyson" />
     <meta name="description" content="Silverheath Limited">
+
+<!------------ Page Title ------------>
+
     <title>Podcast Directory</title>
-    <!-- CSS links -->
+
+<!------------ CSS Links ------------>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css" />
 
-    <!-- Javascript Links -->
+<!------------ External Javascript Links ------------>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-    
 </head>
 
-<!-- Main Content -->
+<!------------ Main Content ------------>
 
 <body>
     <header>
-        <!-- Nav bar -->
+
+<!------------ Nav Bar ------------>
 
         <nav class="nav">
             <div class="nav-wrapper">
@@ -48,10 +54,10 @@
         </nav>
     </header>
 
-    <!-- Page content -->
+<!------------ Template Content Start ------------>
     {% block content %} {% endblock %}
 
-    <!-- Footer -->
+<!------------ Footer ------------>
 
     <footer class="footer-bar center-align">
         <div class="container">
@@ -64,7 +70,7 @@
         </div>
     </footer>
 
-    <!--  External JavaScripts -->
+<!------------ Internal Javascripts ------------>
 
     <script src="{{url_for('static', filename='js/onclick.js')}}"></script>
     <script src="{{url_for('static', filename='js/menu.js')}}"></script>

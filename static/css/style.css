@@ -1,4 +1,5 @@
-html, body {
+/****************** body and text ******************/
+ html, body {
      width: 100%;
      height: 100%;
      margin: 0;
@@ -7,6 +8,22 @@ html, body {
      color: #ffffff;
      background-color: #0a1a2a;
 }
+ .uppercase {
+     text-transform: uppercase;
+}
+ .heading {
+     color: #107429ed;
+}
+ .edit-text {
+     color: #107429ed;
+}
+ .input-field {
+     color: #107429ed;
+}
+ .card-title {
+     color: #107429ed;
+}
+/****************** Navigation ******************/
  .nav {
      background-color: #107429ed;
 }
@@ -29,33 +46,13 @@ html, body {
      flex-direction: row;
      justify-content: center;
 }
-
-.uppercase {
-     text-transform: uppercase;
-}
-
-.heading {
-     color: #107429ed;
-}
-
-.edit-text {
-     color: #107429ed;
-}
-
-/*Containers*/
+/****************** Containers ******************/
  .podcast {
      display: flex;
      flex-direction: row;
      justify-content: space-around;
      flex-wrap: wrap;
 }
- .input-field {
-     color: #107429ed;
-}
- .card-title {
-     color: #107429ed;
-}
- 
  .flex-container {
      display: flex;
      flex-wrap: wrap;
@@ -100,7 +97,6 @@ html, body {
      justify-content: center;
      text-align: center;
 }
-
  .podcast-edit {
      background-color: #ffffff;
      margin: 40px;
@@ -111,7 +107,6 @@ html, body {
      display: flex;
      flex-direction: column;
 }
-
  .heading-container, .podcast-contents {
      flex-direction: row;
      display: flex;
@@ -122,6 +117,13 @@ html, body {
      justify-content: center;
      margin-bottom: 10px;
 }
+ .podcast-button-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin: 5px;
+}
+/****************** Buttons ******************/
  .button_container {
      margin-left: 40px;
      align-self: flex-end;
@@ -131,15 +133,11 @@ html, body {
      margin-bottom: 30px;
      justify-content: center;
 }
-
  .padding {
      padding-left: 20px;
      padding-right: 20px;
 }
- .category {
-     margin: 0px 10px;
-}
-/*Headings*/
+/****************** Headings ******************/
  .heading {
      width: 100%;
      font-size: 2rem;
@@ -161,8 +159,7 @@ html, body {
  .footer-bar{
      background-color: #107429ed;
 }
-
-.btns {
+ .btns {
      background-color: #107429ed;
 }
 /*Text*/
@@ -175,7 +172,7 @@ html, body {
  .ingredient {
      text-transform: capitalize;
 }
-/*Form*/
+/****************** Form ******************/
  .login-form, .category-form {
      width: 60%;
 }
@@ -196,16 +193,10 @@ html, body {
      padding-top: 20px;
      padding-bottom: 20px;
 }
- .podcast-button-container {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     margin: 5px;
-}
  .edit, .delete {
      margin: 20px;
 }
-/*Images*/
+/****************** Images ******************/
  .podcast-image {
      width: 250px;
      height: 200px;
@@ -226,6 +217,7 @@ html, body {
  .icon {
      margin-right: 10px;
 }
+/****************** Adjustments for small screen sizes ******************/
  @media only screen and (max-width: 660px) {
      .flex-container, .podcast-contents {
          flex-direction: column;

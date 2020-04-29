@@ -1,8 +1,9 @@
 {% extends 'base.html'%} {% block content %}
 
-<!-- Podcast details -->
+<!------------ Podcast Details ------------>
 
-<!-- Page title -->
+<!------------Page contents ------------>
+
 <div class="podcast-detail-container s12 m12 l12">
     <p class="heading uppercase">{{podcast.podcast_name}}</p>
     <div class="podcast-contents">
@@ -12,10 +13,12 @@
             <br>
         </p>
     </div>
-<div class="center-align">
-    <a href=" {{podcast.podcast_website}} " class=" buttons waves-effect waves-light btn btns btn_small ">View Podcast</a>
-</div>
-</div>
 
+<!------------ Buttons ------------>
+
+    <div class="center-align">
+        <a href=" {{podcast.podcast_website}} " class=" buttons waves-effect waves-light btn btns btn_small ">View Podcast</a>
+    </div>
+</div>
 
 {% endblock %}
